@@ -1,0 +1,11 @@
+# Ignore sensitive data
+config.php
+data/products_ean.csv
+data/*.xlsx
+output/*.csv
+logs/*.log
+
+# Keep structure
+!data/.gitkeep
+!output/.gitkeep
+!logs/.gitkeep
